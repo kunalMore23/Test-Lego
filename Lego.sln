@@ -1,0 +1,68 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Lego", "Lego\Lego.vcxproj", "{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E} = {BBE27941-398C-4EB6-B159-15AB8A8B080E}
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C} = {C1A32A60-201F-4F1A-811F-A7039FCC571C}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Geometry", "Geometry\Geometry.vcxproj", "{BBE27941-398C-4EB6-B159-15AB8A8B080E}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "LegoShapeFactory", "LegoShapeFactory\LegoShapeFactory.vcxproj", "{C1A32A60-201F-4F1A-811F-A7039FCC571C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E} = {BBE27941-398C-4EB6-B159-15AB8A8B080E}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestProjectLego", "TestProjectLego\TestProjectLego.vcxproj", "{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Debug|x64.ActiveCfg = Debug|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Debug|x64.Build.0 = Debug|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Debug|x86.ActiveCfg = Debug|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Debug|x86.Build.0 = Debug|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Release|x64.ActiveCfg = Release|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Release|x64.Build.0 = Release|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Release|x86.ActiveCfg = Release|x64
+		{0C6EC0B1-21F7-4242-93DE-B9EF04E39246}.Release|x86.Build.0 = Release|x64
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Debug|x64.ActiveCfg = Debug|x64
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Debug|x64.Build.0 = Debug|x64
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Debug|x86.ActiveCfg = Debug|Win32
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Debug|x86.Build.0 = Debug|Win32
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Release|x64.ActiveCfg = Release|x64
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Release|x64.Build.0 = Release|x64
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Release|x86.ActiveCfg = Release|Win32
+		{BBE27941-398C-4EB6-B159-15AB8A8B080E}.Release|x86.Build.0 = Release|Win32
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Debug|x64.ActiveCfg = Debug|x64
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Debug|x64.Build.0 = Debug|x64
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Debug|x86.ActiveCfg = Debug|Win32
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Debug|x86.Build.0 = Debug|Win32
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Release|x64.ActiveCfg = Release|x64
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Release|x64.Build.0 = Release|x64
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Release|x86.ActiveCfg = Release|Win32
+		{C1A32A60-201F-4F1A-811F-A7039FCC571C}.Release|x86.Build.0 = Release|Win32
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Debug|x64.ActiveCfg = Debug|x64
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Debug|x64.Build.0 = Debug|x64
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Debug|x86.ActiveCfg = Debug|Win32
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Debug|x86.Build.0 = Debug|Win32
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Release|x64.ActiveCfg = Release|x64
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Release|x64.Build.0 = Release|x64
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Release|x86.ActiveCfg = Release|Win32
+		{4B7AC415-1ECA-4561-A1F5-30CCA51938EC}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D27947C6-5191-4E26-AED6-A36CAAA989C3}
+	EndGlobalSection
+EndGlobal

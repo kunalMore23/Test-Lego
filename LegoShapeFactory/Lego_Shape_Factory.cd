@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Cube">
+    <Position X="0.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="LegoShapeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="5.844" Y="0.5" />
+        <Point X="5.844" Y="0.26" />
+        <Point X="2.408" Y="0.26" />
+        <Point X="2.408" Y="8.035" />
+        <Point X="1.5" Y="8.035" />
+        <Point X="1.5" Y="7.646" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAABAAgAAAAAAgQACAAAgAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>headers\Cube.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cross">
+    <Position X="2.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="LegoShapeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="4.555" />
+        <Point X="6.25" Y="4.839" />
+        <Point X="3.5" Y="4.839" />
+        <Point X="3.5" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAAAAAgAAAAABAAAAAAIAAAAAACAAAAAgAA=</HashCode>
+      <FileName>headers\Cross.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LegoShapeFactory">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQgCAAAAAAABAQEQABAAAAACCAAAAIAAIICAE=</HashCode>
+      <FileName>headers\LegoShapeFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cuboid">
+    <Position X="4.75" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAABAAAACAAAAAAQQAAAAAAAAAAAEQAAAAAAoAAI=</HashCode>
+      <FileName>headers\Cuboid.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CuboQuarto">
+    <Position X="6.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="LegoShapeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="0.5" />
+        <Point X="6.25" Y="0.26" />
+        <Point X="8.24" Y="0.26" />
+        <Point X="8.24" Y="2.806" />
+        <Point X="8.079" Y="2.806" />
+        <Point X="8.079" Y="6.227" />
+        <Point X="8.25" Y="6.227" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>ABAkAEAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>headers\CuboQuarto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Cylinder">
+    <Position X="8.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="LegoShapeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="0.5" />
+        <Point X="6.25" Y="0.26" />
+        <Point X="8.24" Y="0.26" />
+        <Point X="8.24" Y="5.412" />
+        <Point X="9.5" Y="5.412" />
+        <Point X="9.5" Y="6.81" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>IAAgEAAAAAQAAAgAAAAAAAAAAAAAAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>headers\Cylinder.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quarto">
+    <Position X="10.75" Y="5" Width="1.5" />
+    <InheritanceLine Type="LegoShapeFactory" ManuallyRouted="true">
+      <Path>
+        <Point X="6.25" Y="4.555" />
+        <Point X="6.25" Y="4.808" />
+        <Point X="7.533" Y="4.808" />
+        <Point X="7.533" Y="1.875" />
+        <Point X="8.157" Y="1.875" Type="JumpStart" />
+        <Point X="8.323" Y="1.875" Type="JumpEnd" />
+        <Point X="11.5" Y="1.875" />
+        <Point X="11.5" Y="5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAABAAAgAAAAAAAAAAAAAIAAAQAAAAAAAAAA=</HashCode>
+      <FileName>headers\Quarto.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
