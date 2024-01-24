@@ -10,6 +10,9 @@ class LEGOSHAPEFACTORY_API CuboQuarto : public LegoShapeFactory
 {
 public:
 	static CuboQuarto* getCuboQuarto();
+	//getters
+	float side();
+	//setters
 	void setSide(float inSide);
 
 private:

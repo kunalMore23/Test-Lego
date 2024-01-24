@@ -10,6 +10,9 @@ class LEGOSHAPEFACTORY_API Cylinder : public LegoShapeFactory
 {
 public:
 	static Cylinder* getCylinder();
+	//getters
+	float side();
+	//setters
 	void setSide(float inSide);
 
 private:

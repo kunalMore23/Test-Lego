@@ -16,6 +16,11 @@ Cylinder* Cylinder::getCylinder()
 	return cylinder;
 }
 
+float Cylinder::side()
+{
+	return mSide;
+}
+
 void Cylinder::setSide(float inSide)
 {
 	mSide = inSide;

@@ -18,6 +18,21 @@ Cuboid* Cuboid::getCuboid(float length, float breadth, float height)
 	return cuboid;
 }
 
+float Cuboid::length() const
+{
+	return mLength;
+}
+
+float Cuboid::breadth() const
+{
+	return mBreadth;
+}
+
+float Cuboid::height() const
+{
+	return mHeight;
+}
+
 void Cuboid::setLength(float inLength)
 {
 	mLength = inLength;

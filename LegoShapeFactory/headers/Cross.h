@@ -9,6 +9,9 @@ class LEGOSHAPEFACTORY_API Cross : public LegoShapeFactory
 {
 public:
 	static Cross* getCross();
+	//getters
+	float side() const;
+	//setters
 	void setSide(float inSide);
 
 private:

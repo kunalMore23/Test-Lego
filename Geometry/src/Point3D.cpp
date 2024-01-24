@@ -46,3 +46,11 @@ void Point3D::setY(float y) {
 void Point3D::setZ(float z) {
     mZ = z;
 }
+
+bool Point3D::operator==(const Point3D& other) const
+{
+    // Compare all member variables for equality
+    return mX == other.mX &&
+        mY == other.mY &&
+        mZ == other.mZ;
+}

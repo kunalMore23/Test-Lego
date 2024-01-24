@@ -67,6 +67,13 @@ void LegoShapeFactory::rotate(GeometricEntity::Point3D rotationVector)
     }
 }
 
+
+
+bool LegoShapeFactory::isValid() const
+{
+    return !triangles.empty();
+}
+
 void LegoShapeFactory::rotatePoint(GeometricEntity::Point3D& p, double degree, char axis)
 {
     double angle = degree * 3.14 / 180;

@@ -18,6 +18,11 @@ Quarto* Quarto::getQuarto()
 	return quarto;
 }
 
+float Quarto::side()
+{
+	return mSide;
+}
+
 void Quarto::setSide(float inSide)
 {
 	mSide = inSide;

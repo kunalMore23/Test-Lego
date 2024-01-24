@@ -21,6 +21,10 @@ public:
 	void setTriangles(std::vector<GeometricEntity::Triangle> inTriangles);
 	void rotate(GeometricEntity::Point3D rotationVector);
 
+
+
+	bool isValid() const;
+
 protected:
 	void setShapeType(std::string shapeType);
 	std::vector<GeometricEntity::Triangle> triangles;

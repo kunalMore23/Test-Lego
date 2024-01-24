@@ -10,6 +10,10 @@ class LEGOSHAPEFACTORY_API Cuboid : public LegoShapeFactory
 {
 public:
 	static Cuboid* getCuboid(float length, float breadth, float height);
+	//getters
+	float length()  const;
+	float breadth() const;
+	float height()  const;
 	void setLength(float inLength);
 	void setBreadth(float inBreadth);
 	void setHeight(float inHeight);

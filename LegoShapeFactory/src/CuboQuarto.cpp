@@ -16,6 +16,11 @@ CuboQuarto* CuboQuarto::getCuboQuarto()
 	return cuboQuarto;
 }
 
+float CuboQuarto::side()
+{
+	return mSide;
+}
+
 void CuboQuarto::setSide(float inSide)
 {
 	mSide = inSide;

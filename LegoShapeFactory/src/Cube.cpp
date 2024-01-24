@@ -31,7 +31,7 @@ void Cube::makeCube(float side)
 	mSideLength = side;
 }
 
-float Cube::getSideLength()
+float Cube::side()
 {
 	return mSideLength;
 }

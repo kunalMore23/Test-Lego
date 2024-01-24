@@ -57,13 +57,13 @@
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <WarningLevel>Level3</WarningLevel>
-      <AdditionalIncludeDirectories>..\Geometry\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>..\Geometry\headers;..\LegoShapeFactory\headers;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <SubSystem>Console</SubSystem>
       <AdditionalLibraryDirectories>..\x64\Debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
-      <AdditionalDependencies>Geometry.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalDependencies>Geometry.lib;LegoShapeFactory.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -102,6 +102,11 @@
     <ClInclude Include="pch.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="testCross.cpp" />
+    <ClCompile Include="testCube.cpp" />
+    <ClCompile Include="testCuboid.cpp" />
+    <ClCompile Include="testCuboQuarto.cpp" />
+    <ClCompile Include="testCylinder.cpp" />
     <ClCompile Include="testPoint2D.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
@@ -110,6 +115,9 @@
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="testPoint3D.cpp" />
+    <ClCompile Include="testQuarto.cpp" />
+    <ClCompile Include="testTriangle.cpp" />
+    <ClCompile Include="testTriangulation.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

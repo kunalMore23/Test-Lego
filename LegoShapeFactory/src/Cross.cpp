@@ -16,6 +16,11 @@ Cross* Cross::getCross()
 	return cross;
 }
 
+float Cross::side() const
+{
+	return mSide;
+}
+
 void Cross::setSide(float inSide)
 {
 	mSide = inSide;

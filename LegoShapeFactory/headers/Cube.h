@@ -11,8 +11,10 @@ class LEGOSHAPEFACTORY_API Cube : public LegoShapeFactory
 {
 public:
 	static Cube* getCube(float side);
+	//getters
+	float side();
+	//setters
 	void setSide(float inSide);
-	float getSideLength();
 
 private:
 	Cube(float side);
